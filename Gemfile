@@ -31,3 +31,7 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
 end
+
+# To use Execjs
+gem "therubyracer", :require => 'v8'
+# gem "therubyracer", "~> 0.8.2.pre"
